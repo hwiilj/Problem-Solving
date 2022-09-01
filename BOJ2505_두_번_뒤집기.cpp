@@ -34,7 +34,7 @@ int farr[10001], barr[10001];
 int ans[2][2];
 int cnt = 0;
 void freverse(int s, int e) {
-  register int i, tmp;
+	register int i, tmp;
 	int m = (s + e) / 2;
 	for (i = s; i <= m; i++) {
 		tmp = farr[i];
