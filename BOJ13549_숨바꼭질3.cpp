@@ -1,5 +1,6 @@
 /*
   다익스트라처럼 풀면 clear
+  priority_queue를 안 써서 느렸을 수 있는데 pass했다.
 */
 #include <cstdio>
 #include <queue>
