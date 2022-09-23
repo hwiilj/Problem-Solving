@@ -1,6 +1,8 @@
 /*
   다익스트라처럼 풀면 clear
   priority_queue를 안 써서 느렸을 수 있는데 pass했다.
+  pq보다 더 빠른 것이 0-1BFS로, 가중치 0일경우에는 queue의 앞쪽에 push한다.
+  즉, 덱으로 구현가능하여 pq보다 빠르다.
 */
 #include <cstdio>
 #include <queue>
