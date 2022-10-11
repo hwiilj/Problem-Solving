@@ -43,7 +43,7 @@ int main() {
 		}
 	}
 	int tmp = len-1;
-	for (int i = N - 1; i > 0; i--) {
+	for (int i = N - 1; i >= 0; i--) {
 		if (mem[i] == tmp) {
 			buf[mem[i]] = arr[i];
 
